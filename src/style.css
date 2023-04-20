@@ -1,0 +1,364 @@
+.viewActiva {
+  color: red;
+  padding-left: 20px;
+}
+
+.barra {
+
+  background-color: white;
+  border-bottom: 1px solid beige;
+}
+
+.btnBarra {
+
+  background-color: #00529E;
+  margin: 5px;
+  padding: 7px;
+}
+
+.menu {
+
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+
+}
+
+.tituloGaleria {
+
+  text-align: center;
+  margin: 1em;
+
+}
+
+.btnDetalle {
+  background-color: #00529E;
+  width: 100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.galeria {
+  margin-top: 50px;
+}
+
+.cardAutos {
+
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+
+
+}
+
+.cardContenido {
+
+  border-radius: 50px;
+}
+
+.combustibles {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.cardCombustible {
+  width: 68%;
+  margin: 50px;
+  background-color: white;
+}
+
+.formIngresar {
+  
+  place-items: center;
+  margin-top: 150px;
+  padding: 5em;
+  border-radius: 20px;
+  background-color: #989899;
+  color: white;
+  width: 30%;
+  
+}
+
+.formRegistrar {
+  
+  place-items: center;
+  margin-top: 150px;
+  padding: 5em;
+  border-radius: 20px;
+  background-color: #989899;
+  color: white;
+  width: 40%;
+
+  }
+
+  .formRegistrar h1 {
+    text-align: center;
+  
+    }
+  
+
+.formIngresar h1 {
+  text-align: center;
+
+  }
+
+.btnIngresar {
+
+  color: #00529E;
+  background-color: white;
+  margin: 10px;
+
+
+}
+
+.btnFormIngresar {
+
+  text-align: center;
+}
+
+
+.filtros {
+  margin-left: 20px;
+  width: 300px;
+  margin-top: 80px;
+
+}
+
+.btnFiltro {
+
+  margin: 10px;
+  font-size: 12px;
+
+}
+
+.imgError {
+
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 10%;
+
+}
+
+.navPrivado {
+
+  margin-right: 100px;
+  font-weight: 500;
+  margin-top: 0px;
+}
+
+.vDetalle {
+
+  margin-top: 200px;
+}
+
+
+.acordeon {
+
+  margin-top: 100px;
+}
+
+.btnContacto {
+  margin-right: 10px;
+}
+
+.validacion {
+
+  color: gainsboro;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.menuPerfil {
+
+  margin-left: 20px;
+  color: red;
+
+}
+
+.avatar-options {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.avatar-option {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.avatar-option.selected {
+  border-color: blue;
+}
+
+.avatar-option img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.contenidoFormPerfil {
+
+  width: 100%;
+}
+
+
+.avatar-options2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.avatar-option2 {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.avatar-option2.selected {
+  border-color: blue;
+}
+
+.avatar-option2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.avatar-img {
+  width: 40px;
+  /* Modifica el ancho de la imagen */
+  height: 40px;
+  /* Modifica la altura de la imagen */
+  border-radius: 50%;
+  /* Redondea la imagen */
+
+}
+
+.avatarPerfil {
+  width: 300px;
+  /* Modifica el ancho de la imagen */
+  height: 300px;
+  /* Modifica la altura de la imagen */
+  border-radius: 50%;
+  /* Redondea la imagen */
+  justify-content: center;
+  text-align: center;
+}
+
+.seleccionAvatar {
+
+  margin-top: 50px;
+}
+
+.footer {
+
+  height: 100px;
+  background-color: #00529E;
+  
+}
+
+
+.publicaciones {
+
+  margin-top: 100px;
+}
+
+.publicados {
+
+  margin-top: 150px;
+  text-align: center;
+}
+
+.tituloPublicaciones {
+
+  margin-top: 150px;
+  margin-bottom: 50px;
+  text-align: center;
+  
+}
+
+.galeriaFav {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.tituloPublicacionesFav {
+
+  margin: 100px;
+}
+
+
+.btnFiltros:hover {
+
+  background-color: #9d9b9b;
+
+}
+
+.btnFiltros {
+  background-color: #ccc;
+  color: black;
+}
+
+.cardTitle {
+  font-size: 16px;
+  background-color: #f3f3f3;
+  border-radius: 5%;
+}
+
+.navPrivado{
+
+  margin-top: 14px;
+}
+
+.publicadosNuevos{
+
+  margin-left: 55px;
+}
+
+.tituloNuevos{
+  
+  margin-bottom: 45px;
+
+}
+
+.formPublicar{
+  margin-top: 150px;
+  padding: 5em;
+  border-radius: 20px;
+  background-color: #989899;
+  color: white;
+  width: 50%;
+
+}
+
+.formPerfil{
+
+  margin-top: 150px;
+  padding: 5em;
+  border-radius: 20px;
+  background-color: #989899;
+  color: white;
+  
+}
+
+.formPerfil h1{
+
+  text-align: center;
+
+}
+
